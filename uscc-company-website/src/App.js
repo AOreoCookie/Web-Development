@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Sidebar from './components/Sidebar/Sidebar';
+import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <Router>
-        <Sidebar />
+        <Navbar />
         <Switch>
-          <Route path='/'  />
+          <Route path='/' />
         </Switch>
       </Router>
     </>
